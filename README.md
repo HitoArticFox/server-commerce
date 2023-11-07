@@ -1,12 +1,13 @@
 #SERVER-COMMERCE
 
 Rutas:
-        ->Usuarios:
-        -> /
-        ->/api/users // POST // Crea un usuario
-        ->/api/users/:users_id // GET //Busca un usuario por su ID
-        ->/api/users/:users_id // PUT //Cambia informacion de un usuario por su ID
-        ->/api/users/:users_id // DELETE //Elimina un usuario por su ID
+
+    ->Usuarios:
+    -> /
+    ->/api/users // POST // Crea un usuario
+    ->/api/users/:users_id // GET //Busca un usuario por su ID
+    ->/api/users/:users_id // PUT //Cambia informacion de un usuario por su ID
+    ->/api/users/:users_id // DELETE //Elimina un usuario por su ID
 
     ->Productos:
     -> /
