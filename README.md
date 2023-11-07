@@ -1,7 +1,7 @@
 #SERVER-COMMERCE
 
 Rutas:
-    ->Usuarios:
+        ->Usuarios:
         -> /
         ->/api/users // POST // Crea un usuario
         ->/api/users/:users_id // GET //Busca un usuario por su ID
