@@ -13,8 +13,8 @@ const puerto = process.env.puerto || 3000
 
 app.use(express.urlencoded({extended: true}));
 
-app.get("/hello-world", (req, res) => {
-  return res.status(200).json({ message: "Hello World!" });
+app.all("/", (req, res) => {
+  res.send("Hello World!" )
 });
 
 app.post("/api/products", async (req, res) => {
